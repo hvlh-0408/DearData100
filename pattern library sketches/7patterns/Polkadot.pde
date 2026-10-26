@@ -4,7 +4,7 @@
   //background(255);
 
 //}
-//creating pattern B with polkadots
+//creating pattern B - polkadots
 //void draw() {
   //fill(0,112,192);
   //rect(180,100,180,180);

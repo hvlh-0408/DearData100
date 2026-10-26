@@ -4,7 +4,7 @@
   //background(255);
 
 //}
-//creating pattern A with vertical stripes
+//creating pattern A - vertical stripes
 //void draw() {
   //fill(255,77,225);
   //rect(180,100,180,180);
