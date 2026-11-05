@@ -2,6 +2,7 @@ PImage puzzleArt;
 PImage [] pieces = new PImage[65];
 float[] pieceX = new float[65];
 float[] pieceY = new float[65];
+boolean moving = false;
 void setup()
 {
   size(750, 750);
@@ -23,6 +24,7 @@ void setup()
 }
 void draw()
 {
+  background(200);
   int pieceNum = 0;
 
   for (int row = 0; row < 5; row++)
@@ -39,4 +41,11 @@ void draw()
       pieceNum++;
     }
   }
+  if (moving) {
+    pieceX[0] = mouseX;
+    pieceY[0] = mouseY;
+  }
+}
+void mousePressed() {
+  moving = true;
 }
